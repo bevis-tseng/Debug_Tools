@@ -1,9 +1,11 @@
 # enable_debug_flags.sh
 
-To enable debug flags of ril, mms, network in runtime:
+To enable debug flags of `ril`, `mms`, `network` in runtime:
 
 1. `$./enable_debug_flags.sh`
 2. Wait for B2G restarting complete.
+
+Note: `network` flag is only available after 1.5/2.0.
 
 # tcpdump
 

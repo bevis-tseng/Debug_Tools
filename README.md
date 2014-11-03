@@ -5,7 +5,8 @@ To enable debug flags of `ril`, `mms`, `network` in runtime:
 1. `chmod +x enable_debug_flags.sh`
 2. `./enable_debug_flags.sh`
 3. Wait for B2G restarting complete.
-4. start logcat by `adb logcat -v threadtime > logcat.txt`
+4. Capturing main logcat by `adb logcat -v threadtime > logcat.txt`
+5. Capturing radio logcat by `adb logcat -v threadtime -b radio > logcat_radio.txt`
 
 Note: `network` flag can be enabled at runtime since b2g 2.0.
 
